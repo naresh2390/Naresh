@@ -1,0 +1,17 @@
+{
+  "name": "naresh",
+  "version": "1.0.0",
+  "description": "This repository now includes a simple static front-end built with HTML, CSS and JavaScript.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"No tests specified\"",
+    "start": "npx serve ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}
