@@ -57,3 +57,37 @@ body.dark button {
 body.dark button:hover {
   background: #2563eb;
 }
+
+.notes {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+#noteForm {
+  display: flex;
+  gap: 0.5rem;
+}
+
+#noteForm input {
+  flex: 1;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 6px;
+}
+
+#notesList {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+#notesList li {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 0.5rem;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+body.dark #notesList li {
+  background: rgba(255, 255, 255, 0.05);
+}
